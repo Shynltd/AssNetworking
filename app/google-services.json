@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "417704953470",
+    "firebase_url": "https://intense-reactor-258004.firebaseio.com",
+    "project_id": "intense-reactor-258004",
+    "storage_bucket": "intense-reactor-258004.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417704953470:android:f99cb0bc66d8c305997a2f",
+        "android_client_info": {
+          "package_name": "com.example.assnetworking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417704953470-ia8eofomekbh7ev8q10566m0en0cukdn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgaDfx5PGydOt7ShGvZf0gug9VYCRG3Jw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417704953470-ia8eofomekbh7ev8q10566m0en0cukdn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

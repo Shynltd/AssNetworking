@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+    android:layout_marginBottom="3dp"
+    card_view:cardCornerRadius="8dp"
+    card_view:cardElevation="8dp">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgCover"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgCover"
+            android:layout_marginTop="-20dp"
+            android:layout_toLeftOf="@id/tvViewCount"
+            android:src="@drawable/baseline_remove_red_eye_black_18dp" />
+
+        <TextView
+            android:id="@+id/tvViewCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgCover"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="-20dp"
+            android:text="View" />
+
+        <TextView
+            android:id="@+id/tvNumberImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgCover"
+            android:layout_marginTop="-20dp"
+            android:text="Số lượng ảnh" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imgPager"/>
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/baseline_get_app_black_18dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/down_item_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_share_black_18dp"
+            app:fab_label="Share"
+             />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/down_item_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/baseline_wallpaper_black_18dp"
+            app:fab_label="Set Wallpaper" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/down_item_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_get_app_black_18dp"
+            app:fab_label="Download" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</FrameLayout>
